@@ -7,14 +7,7 @@ import ModalAddFood from '../../components/ModalAddFood';
 import ModalEditFood from '../../components/ModalEditFood';
 import { FoodsContainer } from './styles';
 
-interface FoodProps {
-  id: number;
-  name: string;
-  description: string;
-  price: number;
-  available: boolean;
-  image: string;
-}
+import { Food as FoodProps } from '../../@Types/Food';
 
 function Dashboard() {
   const [modalOpen, setModalOpen] = useState(false);
