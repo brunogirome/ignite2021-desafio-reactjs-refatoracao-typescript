@@ -84,7 +84,7 @@ function Dashboard() {
       <ModalAddFood
         isOpen={modalOpen}
         setIsOpen={toggleModal}
-        handleAddFood={() => handleAddFood(food)}
+        handleAddFood={() => handleAddFood(editingFood)}
       />
       <ModalEditFood
         isOpen={editModalOpen}
