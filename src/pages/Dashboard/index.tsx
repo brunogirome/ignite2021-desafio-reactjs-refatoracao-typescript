@@ -68,8 +68,6 @@ function Dashboard() {
   };
 
   const toggleEditModal = () => {
-    const { editModalOpen } = this.state;
-
     setEditModalOpen(!editModalOpen);
   };
 
